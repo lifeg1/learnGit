@@ -6,3 +6,14 @@ git add * --- to add to staging
 git status -- to check the 
 git commit -m "updated by 2nd user"
 git push origin master     ---- push the files to master branch 
+
+
+
+NOW THIS UPDATE IS updated by user one after its pull the latest code using - 
+git remote add origin https://github.com/lifeg1/learnGit.git   ----this will connect to remote repositry 
+git pull origin master -- pull the latest file from branch --- master
+updated the firstGitfile file 
+git status -- give changed file
+git add *  
+git commit -m "updated by 1st user"
+git push origin master
