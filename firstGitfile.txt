@@ -1,1 +1,8 @@
-THIS CODE IS UPDATED BY SECOND USED AFTER HE CLONED to his system
+THIS CODE IS UPDATED BY SECOND USED AFTER HE CLONED to his system by belo steps 
+
+git clone https://github.com/lifeg1/learnGit.git   ---one time 
+updated the firstGitfile 
+git add * --- to add to staging 
+git status -- to check the 
+git commit -m "updated by 2nd user"
+git push origin master     ---- push the files to master branch 
