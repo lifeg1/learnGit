@@ -10,10 +10,7 @@ Above update in file is done after creating a new branch
 
 
 
-
-
 Now first user pull the developer branch and switch to developer branch and do updates and push it to developer branch
-
 git pull origin developer
 git checkout developer
 git branch 
@@ -21,6 +18,7 @@ do updates in files and push
 git add * 
 git commit -m "update are done by 1st user to dev branch"
 git push origin developer
+
 
 
 Now we merger the devloper branch to master using 
