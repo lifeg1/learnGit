@@ -1,0 +1,9 @@
+Now second user has created a new branch - developer  
+
+git checkout -b branch 
+git branch 
+git add *
+git commit -m "update to developer branch"
+git push origin developer 
+
+Above update in file is done after creating a new branch
