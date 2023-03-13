@@ -10,10 +10,7 @@ Above update in file is done after creating a new branch
 
 
 
-
-
 Now first user pull the developer branch and switch to developer branch and do updates and push it to developer branch
-
 git pull origin developer
 git checkout developer
 git branch 
@@ -22,4 +19,14 @@ git add *
 git commit -m "update are done by 1st user to dev branch"
 git push origin developer
 
+
+
+Now we merger the devloper branch to master using 
+git checkout master 
+git merge developer 
+Now in system we have all the files and updates form dev branch but it is not yet updated to git repo
+do any other update you want --- add few more lines to this file
+git add * 
+git commit -m "commit by user 1 after merging developer branch"
+git push origin master
 
